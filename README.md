@@ -14,3 +14,5 @@ Aplikasi Penerimaan Peserta Didik Baru (PPDB) Online di SMA TARSISIUS VIRETA TAN
 -   Backend (Laravel)
 -   API (Laravel)
 -   Bootstrap Framework
+
+Develop by : Efron Paduansi
