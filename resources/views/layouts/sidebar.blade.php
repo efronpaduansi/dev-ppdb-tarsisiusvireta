@@ -12,12 +12,10 @@
           <li class="nav-item active">
             <a href="/dashboard" class="nav-link"><i class="fas fa-home"></i><span>Dashboard</span></a>
           </li>
-          <li class="nav-item dropdown">
-            <a href="/datasiswa" class="nav-link" data-toggle="dropdown"><i class="fas fa-user-graduate"></i> <span>Data Siswa</span></a>
-          </li>
+          <li><a class="" href="/datasiswa"><i class="fas fa-user-graduate"></i><span>Data Siswa</span></a></li>
+          <li><a class="nav-link" href="/pendaftar"><i class="fas fa-users"></i><span>Data Pendaftar</span></a></li>
+          <li><a class="nav-link" href="/diterima"><i class="fas fa-user-friends"></i><span>Pendaftar Diterima</span></a></li>
           <li><a class="nav-link" href="blank.html"><i class="far fa-calendar"></i> <span>Tahun Ajaran</span></a></li>
-          <li><a class="nav-link" href="blank.html"><i class="fas fa-users"></i><span>Data Pendaftar</span></a></li>
-          <li><a class="nav-link" href="blank.html"><i class="fas fa-user-friends"></i><span>Pendaftar Diterima</span></a></li>
           <li><a class="nav-link" href="blank.html"><i class="fas fa-file-excel"></i><span>Export Data</span></a></li>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link has-dropdown"><i class="fas fa-sliders-h"></i><span>Administration</span></a>

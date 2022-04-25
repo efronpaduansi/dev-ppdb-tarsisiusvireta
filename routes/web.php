@@ -12,3 +12,10 @@ Route::get('/dashboard', function(){
 Route::get('/datasiswa', function(){
     return view('dashboard.data_siswa');
 });
+Route::get('/pendaftar', function(){
+    return view('dashboard.data_pendaftar');
+});
+
+Route::get('/diterima', function(){
+    return view('dashboard.data_diterima');
+});
