@@ -23,20 +23,12 @@
     <div class="main-wrapper">
       <div class="navbar-bg"></div>
       {{-- Topbar --}}
-      @include('dashboard.topbar')
-      @include('dashboard.sidebar')
-
+      @include('layouts.topbar')
+      @include('layouts.sidebar')
       <!-- Main Content -->
-      <div class="main-content">
-        <section class="section">
-          <div class="section-header">
-            <h1>Dashboard</h1>
-          </div>
-          <div class="section-body"></div>
-        </section>
-      </div>
+      @yield('content')
       {{-- Footer --}}
-      @include('dashboard.footer')
+      @include('layouts.footer')
     </div>
   </div>
 
