@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function(){
-    return view('dashboard.app');
+    return view('dashboard.dashboard');
+});
+
+Route::get('/datasiswa', function(){
+    return view('dashboard.data_siswa');
 });
